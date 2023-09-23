@@ -1,1 +1,1 @@
-# Git-Verkefni
+# Git-Repo fyrir skólaverkefni

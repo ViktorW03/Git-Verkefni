@@ -2,37 +2,23 @@ class Catalog:
     """
     A class representing a catalog with a name and a list of items
     """     
-    def __init__(self, catalog_name):
+    def __init__(self, catalog_name)->None:
         """
-        Initializes a new catalog object with the given name
-        - catalog_name: the name of catalog
-        - items: a list of items in catalog
+        Initializes a new catalog object with the given parameters
         """
         self.catalog_name = catalog_name
         self.items = []
 
-    def add(self, item):
-        """
-        Adds an item to catalog
-        """
+    def add(self, item)->None:
         self.items.append(item)
 
-    def remove(self, item):
-        """
-        Removes an item from catalog
-        """
+    def remove(self, item)->None:
         self.items.remove(item)
 
-    def set_name(self, new_name):
-        """
-        Changes the name of catalog
-        """
+    def set_name(self, new_name)->None:
         self.catalog_name = new_name
 
-    def clear(self):
-        """
-        Removes all items from catalog
-        """
+    def clear(self)->None:
         if self.items:
             self.items.clear()
     

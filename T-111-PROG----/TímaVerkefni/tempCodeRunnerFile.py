@@ -1,1 +1,1 @@
-self.incorrect_guesses += 1
+length
